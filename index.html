@@ -48,6 +48,8 @@
           <td>친구와 함께 쓰는 기능 제공</td></tr>
       <tr><td>“오늘 할 일 공개”를 켰을 때, 오늘 완료한 할 일</td>
           <td>친구가 내 마을에 놀러 와서 보고 칭찬하는 기능 (끄면 공개되지 않아요)</td></tr>
+      <tr><td>앱 오류 정보: 앱이 멈추거나 오류가 났을 때의 오류 기록, 기기 모델, 운영체제 버전</td>
+          <td>오류 원인을 찾아 고치기 (이름·이메일은 담지 않아요)</td></tr>
       <tr><td>신고 내용, “의견 보내기”로 보낸 내용</td>
           <td>부적절한 글 처리, 앱 개선</td></tr>
     </table>
@@ -74,7 +76,7 @@
 
   <h2>4. 저장하는 곳과 맡기는 곳</h2>
   <section>
-    <p>모든 데이터는 Google이 운영하는 <b>Firebase</b>(로그인: Firebase Authentication, 저장: Cloud Firestore) 서버에 저장돼요.
+    <p>모든 데이터는 Google이 운영하는 <b>Firebase</b>(로그인: Firebase Authentication, 저장: Cloud Firestore, 오류 기록: Firebase Crashlytics) 서버에 저장돼요.
     Firebase는 앱 운영자의 위탁을 받아 데이터를 보관·처리하며, Google의 개인정보처리방침과 보안 기준을 따라요.
     서버는 해외(Google 클라우드 데이터센터)에 있을 수 있어요.</p>
     <p>소리 설정, 새 소식 목록처럼 일부 설정은 사용자의 기기 안에만 저장돼요.</p>
